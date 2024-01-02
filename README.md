@@ -23,15 +23,7 @@ Mirror and synchronizing GitHub &amp; Bitbucket repository
 
 # Inside the Bitbucket repo, create a bitbucket-pipelines.yml file containing the following:
 
-  pipelines:
-    default:
-      - step:
-          name: Sync GitHub Mirror
-          image: alpine/git:latest
-          clone:
-            enabled: false
-          script:
-            - git clone --mirror https://x-token-auth:"$BITBUCKET_VARIABL"@bitbucket.org/demo-migration12/Mirroring-Repo.git ## @bitbucket.org follow by your Bitbucket repository path
-            - cd Mirroring-Repo.git ## cd follow by your Github repository Name
-            - git push --mirror https://x-token-auth:"$GITHUB_VARIABLE"@github.com/asaphdanchi/Mirroring-Repo.git ## @github.com follow by your Github repositor path
-            -On your code replace the "$BITBUCKET_VARIABL" and "$GITHUB_VARIABLE" with your corresponding variable names while keeping tha $ and the "" sign. Run the pipeline in Bitbucket
+  - git clone --mirror https://x-token-auth:"$BITBUCKET_VARIABL"@bitbucket.org/demo-migration12/Mirroring-Repo.git ## @bitbucket.org follow by your Bitbucket repository path
+  - cd Mirroring-Repo.git ## cd follow by your Github repository Name
+  - git push --mirror https://x-token-auth:"$GITHUB_VARIABLE"@github.com/asaphdanchi/Mirroring-Repo.git ## @github.com follow by your Github repositor path
+  - On your code replace the "$BITBUCKET_VARIABL" and "$GITHUB_VARIABLE" with your corresponding variable names while keeping tha $ and the "" sign. Run the pipeline in Bitbucket
