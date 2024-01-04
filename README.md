@@ -10,6 +10,7 @@ Mirror and synchronizing GitHub &amp; Bitbucket repository
       Navigate To Github and Import the Repository while keeping the same name "Mirroring-Repo"
     
   - On Bitbucket, Enable Pipelines under Repository settings > Pipelines > Settings
+    ![Screen Shot 2024-01-04 at 00 30 21](https://github.com/asaphdanchi/Mirror-and-synchronizing/assets/112729006/bb456d6f-1f72-44c4-b2a4-7b9ef099718a)
   - On Bitbucket, Generate keys under Repository settings > Pipelines > SSH keys. Copy the public key to clipboard
   - On the same page, under Known hosts enter github.com as the Host address and then click Fetch followed by Add host
   - On GitHub, add the public key under Settings > Security > Deploy keys > Add deploy key. Tick the checkbox to Allow write access
