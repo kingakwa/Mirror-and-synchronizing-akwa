@@ -6,6 +6,7 @@ Mirror and synchronizing GitHub &amp; Bitbucket repository
       Navigate to your Bitbucket repository Example "Mirroring-Repo" Create an access token under Repository settings > Security > Access tokens
       Create Repository Access Token with selecting all the "READ" Permission
       Copy the last Access token Example { "https://x-token-auth:ATCTT3xFfGN0TSG5xC5PMZex1aEWC2wMY7j1SiYTwLpR7WTpHQ4DJ1oRfevWbd-LVn9bRzmr3csDN4DEjT57KYlsxWcKXnk5zW17DLJ9ssRcOFFwegxzPTMS-MAfumre3yDmXup-z1nHb8XSRGI9N_McR6FRyHArzIoPIWiJSk6cQfYqfAkIw_w=65FC4ty63@bitbucket.org/demo-migration12/solstice_demo.git" }
+    ![Screen Shot 2024-01-04 at 00 27 57](https://github.com/asaphdanchi/Mirror-and-synchronizing/assets/112729006/666aed90-75a8-4c57-bbe0-fe4f266ad578)
       Navigate To Github and Import the Repository while keeping the same name "Mirroring-Repo"
     
   - On Bitbucket, Enable Pipelines under Repository settings > Pipelines > Settings
