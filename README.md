@@ -27,6 +27,7 @@ Mirror and synchronizing GitHub &amp; Bitbucket repository
   - At the bottom left of the page click Developer Settings, Create a Personal access tokens Under Personal access tokens > Token (classic) > Generate new token > Generate new token (classic)
     ![Screen Shot 2024-01-04 at 00 49 19](https://github.com/asaphdanchi/Mirror-and-synchronizing/assets/112729006/88398cca-a40f-4afd-ba11-50f2a7ee1ecf)
   - Check the "repo" box, "Workflow" box and the "write:package" box. Genarate Token and copy the token Example "ghp_zY5GxaeytuAZlR4tPcwqovPz7c2ZVy1kdfg"
+    ![Screen Shot 2024-01-04 at 00 52 09](https://github.com/asaphdanchi/Mirror-and-synchronizing/assets/112729006/a0237460-df31-480e-b2df-136dab880c68)
   - On Bitbucket, Create a Repository variables with the Access Token from Github under Repository Settings > Pipeline > Repository variable. Naming the variable Example "GITHUB_VARIABLE"
 
 # Inside the Bitbucket repo, create a bitbucket-pipelines.yml file containing the following:
