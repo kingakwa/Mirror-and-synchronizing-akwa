@@ -72,3 +72,4 @@ On your code replace the "$BITBUCKET_VARIABLE" and "$GITHUB_VARIABLE" with your 
 ![Screen Shot 2024-01-04 at 02 57 05](https://github.com/asaphdanchi/Mirror-and-synchronizing/assets/112729006/4b9e2dab-e59c-41a8-9b1f-9a09db958d75)
 
 
+# HAPPY LEARNING 🙂
