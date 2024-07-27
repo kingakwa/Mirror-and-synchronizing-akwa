@@ -112,7 +112,7 @@ The GitHub Action will now automatically mirror your GitHub repository to Bitbuc
 - **Invalid Credentials**: Double-check that the Bitbucket token has the correct permissions and is correctly set in GitHub Secrets.
 - **Authentication Errors**: Ensure that the Bitbucket token and the Git author email are correctly referenced and have the appropriate permissions.
 
-This is part of the Bitbucket Github project done with Solavise Technologies Institute from [Mirror-and-Synchronizing](https://github.com/asaphdanchi/Mirror-and-synchronizing) by @Asaph
+This is part of the Bitbucket Github project done with Solavise Technologies Institute from [Mirror-and-Synchronizing](https://github.com/asaphdanchi/Mirror-and-synchronizing) by @AsaphDanchi
 
 This documentation was AI-Assisted, human-verified and updated by @kevshakes
 
