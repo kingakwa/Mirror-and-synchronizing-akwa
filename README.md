@@ -1,8 +1,10 @@
-# Mirror-and-synchronizing
-Mirror and synchronizing GitHub &amp; Bitbucket repository
+# Mirror-and-synchronizing (BITBUCKET TO GITHUB MIGRTION AND SYNCRONIZATION)
+Mirror and synchronizing GitHub & Bitbucket repository.
 
-# On GitHub, create a new repository (import or from scratch)
-  - Importing a private repository from Bitbucket to Github
+# OBJECTIVE: Migrating your existing bitbucket repo to GitHub repo, synchronizing them in shuch a way that when ever a change is made in the source repository(Bitbucket) the same change will be replecated in GitHub without any manuel intervention.
+
+#1. On GitHub, create a new repository
+  - On your Bitbucket
       Navigate to your Bitbucket repository Example "Mirroring-Repo" Create an access token under Repository settings > Security > Access tokens
       Create Repository Access Token with selecting all the "READ" Permission
       Copy the last Access token Example { "https://x-token-auth:ATCTT3xFfGN0TSG5xC5PMZex1aEWC2wMY7j1SiYTwLpR7WTpHQ4DJ1oRfevWbd-LVn9bRzmr3csDN4DEjT57KYlsxWcKXnk5zW17DLJ9ssRcOFFwegxzPTMS-MAfumre3yDmXup-z1nHb8XSRGI9N_McR6FRyHArzIoPIWiJSk6cQfYqfAkIw_w=65FC4ty63@bitbucket.org/demo-migration12/solstice_demo.git" }
