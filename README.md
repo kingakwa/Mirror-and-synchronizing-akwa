@@ -3,6 +3,7 @@ Mirror and synchronizing GitHub & Bitbucket repository.
 
 # OBJECTIVE: Migrating your existing bitbucket repo to GitHub repo, synchronizing them in shuch a way that when ever a change is made in the source repository(Bitbucket) the same change will be replecated in GitHub without any manuel intervention.
 
+
 #1. On GitHub, create a new repository
   - On your Bitbucket
       Navigate to your Bitbucket repository Example "Mirroring-Repo" Create an access token under Repository settings > Security > Access tokens
